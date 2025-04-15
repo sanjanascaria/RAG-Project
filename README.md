@@ -12,3 +12,11 @@ This is a lightweight Retrieval-Augmented Generation (RAG) app built with FastAP
 
 🐳 Dockerized for easy deployment
 
+## 🧪 Local Run (without Docker)
+
+Run the app using `uvicorn main:app --reload`.
+
+## 🐳 Run with Docker
+
+1. Build the image `docker build -t ask-notes-app .`
+2. Run the image `docker run -p 8000:8000 ask-notes-app`
