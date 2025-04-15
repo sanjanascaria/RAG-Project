@@ -14,7 +14,7 @@ This is a lightweight Retrieval-Augmented Generation (RAG) app built with FastAP
 
 ## 🧪 Local Run (without Docker)
 
-Run the app using `uvicorn main:app --reload`.
+Run the app using `uvicorn main:app --reload`
 
 ## 🐳 Run with Docker
 
