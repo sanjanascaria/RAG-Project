@@ -8,11 +8,11 @@ import os
 
 def get_rag_chain(model_name: str):
 
-    loader = TextLoader("indian-elephant.txt")
+    loader = TextLoader("/path/to/your/file")
     documents = loader.load()
     
     for doc in documents:
-        doc.metadata["source"] = "indian-elephant.txt"
+        doc.metadata["source"] = "name-of-your-file.txt"
 
     # split text into smaller parts
     splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
